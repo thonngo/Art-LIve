@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Art Live</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <a class="header__logo" href="!#"><img src="./img/Лого Хедер (2).svg" alt="logo"></a>
+                <nav class="header__menu">
+                    <ul class="header__list menu">
+                        <li class="menu__item">О компании</li>
+                        <li class="menu__item">Наши проекты</li>
+                        <li class="menu__item">Отзывы</li>
+                        <li class="menu__item">Контакты</li>
+                    </ul>
+                </nav>
+                <button class="header__btn">
+                    <svg width="51" height="20" viewBox="0 0 51 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M51 20H49.2222V15.7975C49.2215 15.1442 48.9444 14.5178 48.4516 14.0558C47.9588 13.5938 47.2907 13.334 46.5938 13.3333H39.4062C38.7093 13.334 38.0412 13.5938 37.5484 14.0558C37.0556 14.5178 36.7785 15.1442 36.7778 15.7975V20H35V15.7975C35.0014 14.7023 35.4661 13.6524 36.2921 12.878C37.1181 12.1036 38.2381 11.668 39.4062 11.6667H46.5938C47.7619 11.668 48.8819 12.1036 49.7079 12.878C50.5339 13.6524 50.9986 14.7023 51 15.7975V20Z" fill="black"/>
+                        <path d="M43.0003 10C41.9455 10 40.9143 9.70676 40.0373 9.15735C39.1602 8.60794 38.4766 7.82705 38.073 6.91342C37.6693 5.99979 37.5637 4.99446 37.7695 4.02455C37.9753 3.05465 38.4832 2.16373 39.2291 1.46447C39.975 0.765206 40.9253 0.289002 41.9598 0.0960758C42.9944 -0.0968503 44.0668 0.00216643 45.0413 0.380605C46.0158 0.759043 46.8488 1.39991 47.4348 2.22215C48.0209 3.0444 48.3337 4.0111 48.3337 5C48.3322 6.32568 47.7699 7.59668 46.77 8.53407C45.7701 9.47147 44.4144 9.99868 43.0003 10ZM43.0003 1.66667C42.2971 1.66667 41.6097 1.86217 41.025 2.22844C40.4403 2.59471 39.9845 3.1153 39.7154 3.72439C39.4463 4.33348 39.3759 5.0037 39.5131 5.6503C39.6503 6.29691 39.9889 6.89085 40.4862 7.35703C40.9834 7.8232 41.617 8.14067 42.3067 8.26929C42.9964 8.3979 43.7113 8.33189 44.361 8.0796C45.0107 7.82731 45.566 7.40007 45.9567 6.8519C46.3474 6.30374 46.5559 5.65927 46.5559 5C46.5559 4.11595 46.1813 3.2681 45.5145 2.64298C44.8477 2.01786 43.9433 1.66667 43.0003 1.66667Z" fill="black"/>
+                        <path d="M14.5815 1C13.6435 1.01486 12.726 1.2816 11.9215 1.77326C11.1171 2.26493 10.4543 2.96412 10 3.80023C9.54572 2.96412 8.8829 2.26493 8.07847 1.77326C7.27405 1.2816 6.35651 1.01486 5.41852 1C3.92324 1.06618 2.51444 1.73252 1.49991 2.85344C0.485388 3.97436 -0.0524034 5.45875 0.00403263 6.98231C0.00403263 12.7313 9.13035 19.3712 9.51853 19.6529L10 20L10.4815 19.6529C10.8696 19.3729 19.996 12.7313 19.996 6.98231C20.0524 5.45875 19.5146 3.97436 18.5001 2.85344C17.4856 1.73252 16.0768 1.06618 14.5815 1ZM10 17.9109C7.29026 15.8489 1.67003 10.783 1.67003 6.98231C1.61308 5.90865 1.97521 4.85561 2.67742 4.05285C3.37964 3.25009 4.36497 2.76275 5.41852 2.69711C6.47206 2.76275 7.45739 3.25009 8.15961 4.05285C8.86182 4.85561 9.27601 5.90865 9.21907 6.98231H10.833C10.7761 5.90865 11.1382 4.85561 11.8404 4.05285C12.5426 3.25009 13.5279 2.76275 14.5815 2.69711C15.635 2.76275 16.6204 3.25009 17.3226 4.05285C18.0248 4.85561 18.3869 5.90865 18.33 6.98231C18.33 10.7847 12.7097 15.8489 10 17.9109Z" fill="black"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <main class="wall">
+            <section class="wall__art art">
+                <div class="art__container container">
+                    <div class="art__swiper swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="./img/main/Rectangle 2 (1).png" alt="art in the city"></div>
+                          <div class="swiper-slide"><img src="./img/main/Rectangle 2 (1).png" alt="art in the city"></div>
+                          <div class="swiper-slide"><img src="./img/main/Rectangle 2 (1).png" alt="art in the city"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <p class="swiper__text">Искусство в городе</p>
+                      </div>
+                </div>
+            </section>
+            <section class="wall__about about">
+                <div class="about__container container">
+                    <div class="about__title title">О компании</div>
+                    <div class="about__content">
+                        <div class="about__image"><img src="./img/main/photo-1531711526297-2f9fcb5ec0ee 2 (1).png" alt="city"></div>
+                        <div class="about__text">
+                            <p class="about__symbol_title">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития.</p>
+                            <p class="about__symbol">Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач.</p> 
+                            <p class="about__symbol">С другой стороны начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке форм развития.</p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wall__card card">
+                <div class="card__container container">
+                    <div class="card__title title">Наши проекты</div>
+                        <div class="card__list list">
+                            <div class="card__item">
+                                <img class="card__image" src="img/main/card/photo-1551978964-be4721a32235 1 (2).png" alt="">
+                                <img class="card__like" src="./img/main/card/Сердце.svg" alt="like">
+                                <div class="card__text">
+                                    <span class="card__number">Проект 1</span>
+                                    <span class="card__year">2022 г.</span>
+                                </div>
+                                <p class="card__content">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития...</p>
+                                <span class="card__details">Подробнее</span>
+                                <button class="card__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <circle cx="12.5" cy="12.5" r="12.5" fill="black"/>
+                                        <path d="M18.3536 13.3536C18.5488 13.1583 18.5488 12.8417 18.3536 12.6464L15.1716 9.46447C14.9763 9.2692 14.6597 9.2692 14.4645 9.46447C14.2692 9.65973 14.2692 9.97631 14.4645 10.1716L17.2929 13L14.4645 15.8284C14.2692 16.0237 14.2692 16.3403 14.4645 16.5355C14.6597 16.7308 14.9763 16.7308 15.1716 16.5355L18.3536 13.3536ZM8 13.5H18V12.5H8V13.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card__item">
+                                <img class="card__image" src="./img/main/card/photo-1494145904049-0dca59b4bbad 1 (2).png" alt="">
+                                <img class="card__like" src="./img/main/card/Сердце.svg" alt="like">
+                                <div class="card__text">
+                                    <span class="card__number">Проект 1</span>
+                                    <span class="card__year">2022 г.</span>
+                                </div>
+                                <p class="card__content">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития...</p>
+                                <span class="card__details">Подробнее</span>
+                                <button class="card__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <circle cx="12.5" cy="12.5" r="12.5" fill="black"/>
+                                        <path d="M18.3536 13.3536C18.5488 13.1583 18.5488 12.8417 18.3536 12.6464L15.1716 9.46447C14.9763 9.2692 14.6597 9.2692 14.4645 9.46447C14.2692 9.65973 14.2692 9.97631 14.4645 10.1716L17.2929 13L14.4645 15.8284C14.2692 16.0237 14.2692 16.3403 14.4645 16.5355C14.6597 16.7308 14.9763 16.7308 15.1716 16.5355L18.3536 13.3536ZM8 13.5H18V12.5H8V13.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card__item">
+                                <img class="card__image" src="./img/main/card/photo-1582050023691-a66423d1941b 1 (2).png" alt="">
+                                <img class="card__like" src="./img/main/card/Сердце.svg" alt="like">
+                                <div class="card__text">
+                                    <span class="card__number">Проект 1</span>
+                                    <span class="card__year">2022 г.</span>
+                                </div>
+                                <p class="card__content">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития...</p>
+                                <span class="card__details">Подробнее</span>
+                                <button class="card__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <circle cx="12.5" cy="12.5" r="12.5" fill="black"/>
+                                        <path d="M18.3536 13.3536C18.5488 13.1583 18.5488 12.8417 18.3536 12.6464L15.1716 9.46447C14.9763 9.2692 14.6597 9.2692 14.4645 9.46447C14.2692 9.65973 14.2692 9.97631 14.4645 10.1716L17.2929 13L14.4645 15.8284C14.2692 16.0237 14.2692 16.3403 14.4645 16.5355C14.6597 16.7308 14.9763 16.7308 15.1716 16.5355L18.3536 13.3536ZM8 13.5H18V12.5H8V13.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card__item">
+                                <img class="card__image" src="./img/main/card/photo-1554469384-e58fac16e23a 1 (2).png" alt="">
+                                <img class="card__like" src="./img/main/card/Сердце.svg" alt="like">
+                                <div class="card__text">
+                                    <span class="card__number">Проект 1</span>
+                                    <span class="card__year">2022 г.</span>
+                                </div>
+                                <p class="card__content">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития...</p>
+                                <span class="card__details">Подробнее</span>
+                                <button class="card__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <circle cx="12.5" cy="12.5" r="12.5" fill="black"/>
+                                        <path d="M18.3536 13.3536C18.5488 13.1583 18.5488 12.8417 18.3536 12.6464L15.1716 9.46447C14.9763 9.2692 14.6597 9.2692 14.4645 9.46447C14.2692 9.65973 14.2692 9.97631 14.4645 10.1716L17.2929 13L14.4645 15.8284C14.2692 16.0237 14.2692 16.3403 14.4645 16.5355C14.6597 16.7308 14.9763 16.7308 15.1716 16.5355L18.3536 13.3536ZM8 13.5H18V12.5H8V13.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card__item">
+                                <img class="card__image" src="./img/main/card/photo-1620739159255-1c4cb978a0f2 1 (1).png" alt="">
+                                <img class="card__like" src="./img/main/card/Сердце.svg" alt="like">
+                                <div class="card__text">
+                                    <span class="card__number">Проект 1</span>
+                                    <span class="card__year">2022 г.</span>
+                                </div>
+                                <p class="card__content">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития...</p>
+                                <span class="card__details">Подробнее</span>
+                                <button class="card__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <circle cx="12.5" cy="12.5" r="12.5" fill="black"/>
+                                        <path d="M18.3536 13.3536C18.5488 13.1583 18.5488 12.8417 18.3536 12.6464L15.1716 9.46447C14.9763 9.2692 14.6597 9.2692 14.4645 9.46447C14.2692 9.65973 14.2692 9.97631 14.4645 10.1716L17.2929 13L14.4645 15.8284C14.2692 16.0237 14.2692 16.3403 14.4645 16.5355C14.6597 16.7308 14.9763 16.7308 15.1716 16.5355L18.3536 13.3536ZM8 13.5H18V12.5H8V13.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="card__item">
+                                <img class="card__image" src="./img/main/card/photo-1510227898976-842d7a4d9524 1 (1).png" alt="">
+                                <img class="card__like" src="./img/main/card/Сердце.svg" alt="like">
+                                <div class="card__text">
+                                    <span class="card__number">Проект 1</span>
+                                    <span class="card__year">2022 г.</span>
+                                </div>
+                                <p class="card__content">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития...</p>
+                                <span class="card__details">Подробнее</span>
+                                <button class="card__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <circle cx="12.5" cy="12.5" r="12.5" fill="black"/>
+                                        <path d="M18.3536 13.3536C18.5488 13.1583 18.5488 12.8417 18.3536 12.6464L15.1716 9.46447C14.9763 9.2692 14.6597 9.2692 14.4645 9.46447C14.2692 9.65973 14.2692 9.97631 14.4645 10.1716L17.2929 13L14.4645 15.8284C14.2692 16.0237 14.2692 16.3403 14.4645 16.5355C14.6597 16.7308 14.9763 16.7308 15.1716 16.5355L18.3536 13.3536ZM8 13.5H18V12.5H8V13.5Z" fill="white"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    <button class="card__more more">Показать еще</button>
+                </div>
+            </section>
+            <section class="wall__subscribe subscribe">
+                <div class="subscribe__container container">
+                    <div class="subscribe__title title">Подписаться на новости</div>
+                    <form class="subscribe__email">
+                        <input class="subscribe__place" type="email" value="" placeholder="Электронная почта">
+                        <input id="open" class="subscribe__btn more" type="button" value="Показать еще">
+                    </form>
+                    <div id="form" class="subscribe__form form">
+                        <div class="form__content content">
+                            <button class="form__close close"><img src="./img/Group 62.svg" alt="close"></button>
+                            <div class="form__title">Оставить заявку</div>
+                            <form class="form__info">
+                                <div class="form__name">
+                                    <input type="text" value="Имя" placeholder="Имя">
+                                </div>
+                                <div class="form__phone">
+                                    <input type="tel" value="Телефон" placeholder="Телефон">
+                                </div>
+                                <div class="form__comment">
+                                    <textarea placeholder="Комментарий"></textarea>
+                                </div>
+                                <button id="form" class="form__btn more" type="submit">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="popup" class="subscribe__popup popup">
+                        <div class="popup__content content">
+                            <button id="close" class="popup__close close"><img src="./img/Group 62.svg" alt="close"></button>
+                            <div class="popup__title">Спасибо за подписку!</div>
+                            <div class="popup__text">Свежие новости, скоро начнут поступать вам на почту</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wall__reviews reviews">
+                <div class="reviews__container container">
+                    <div class="reviews__title title">Отзывы</div>
+                    <div class="reviews__list list">
+                        <div class="reviews__item">
+                            <img class="reviews__image" src="./img/main/re/Mask group (1).png" alt="photo">
+                            <p class="reviews__client">Клиент 1</p>
+                            <p class="reviews__text">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития.</p>
+                        </div>
+                        <div class="reviews__item">
+                            <img class="reviews__image" src="./img/main/re/Mask Group (2).png" alt="photo">
+                            <p class="reviews__client">Клиент 1</p>
+                            <p class="reviews__text">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития.</p>
+                        </div>
+                        <div class="reviews__item">
+                            <img class="reviews__image" src="./img/main/re/Mask group (3).png" alt="photo">
+                            <p class="reviews__client">Клиент 1</p>
+                            <p class="reviews__text">Повседневная практика показывает, что консультация с широким активом играет важную роль в формировании направлений прогрессивного развития.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <a class="footer__logo" href="!#"><img src="./img/Лого Хедер (2).svg" alt="logo"></a>
+                <nav class="footer__menu">
+                    <ul class="footer__list menu">
+                        <li class="menu__item">О компании</li>
+                        <li class="menu__item">Наши проекты</li>
+                        <li class="menu__item">Отзывы</li>
+                        <li class="menu__item">Контакты</li>
+                    </ul>
+                </nav>
+                <a class="footer__telephone" href="tel: +7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="./swiper.js"></script>
+    <script src="./popup.js"></script>
+</body>
+</html>
